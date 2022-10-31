@@ -54,7 +54,11 @@ main{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-
+}
+main p{
+    text-indent: 20px;
+   
+    text-align: justify;
 }
 #space-geral h1{
     font-size: 60px;
@@ -150,6 +154,7 @@ main{
     grid-column: 1/2;
     margin: 8px;
     font-family: 'vollkorn';
+ 
 }
 
 .paragraph-parte2{
@@ -187,6 +192,9 @@ main{
     margin: 15px 0; 
     
 }
+.nome-preto{
+    color: black;
+}
 #space-information-clube{
     flex: 1;
     background-color: #9A5EF4;
@@ -195,10 +203,12 @@ main{
     border-radius: 15px;
     height: 345px;
     color: white;
+    
 }
 #space-information-clube li{
     padding: 0 16px;
     list-style-type: none;
+    text-align: justify;
 }
 #space-information-clube hr{
     margin-bottom: 25px;
@@ -214,7 +224,7 @@ main{
     justify-content: center;
 }
 .imagem-teste img{
-    width: 700px;
+    width: 600px;
 }
 #news{
     background-color: #f3f2f2;
@@ -435,7 +445,7 @@ footer{
         padding: 15px;
     }
     .imagem-teste img{
-        width: 200px;
+        width: 300px;
         margin-bottom: 40px;
     }
 
