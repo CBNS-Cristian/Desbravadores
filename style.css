@@ -23,6 +23,7 @@ body{
     font-size: 20px;
     flex-wrap: wrap;
 }
+
 header{
   
    display: flex;
@@ -52,7 +53,9 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+#space-navegation li{
+    list-style-type: none;
+}
 #nome-destaque{
     font-size: 50px;
     font-family: 'Noto Serif', serif;
@@ -92,8 +95,7 @@ main p{
 }
 
 #units{
-    background-image: url(imagens/fundo-teste4.jpg);
-    background-size: 1400px;
+
     
     display: flex;
     flex-wrap: wrap;
@@ -251,8 +253,7 @@ main p{
     width: 600px;
 }
 #news{
-    background-image: url(imagens/fundo-teste4.jpg);
-    background-size: 1400px;
+
     background-color: #f3f2f2;
     display: flex;
     flex-wrap: wrap;
