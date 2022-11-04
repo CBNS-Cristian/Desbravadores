@@ -384,7 +384,8 @@ footer{
         align-items: center;
     }
     .cada-unidade img{
-        height: 130px;
+        height: 100px;
+  
     }
     #news{
         width: 100%;
@@ -437,12 +438,16 @@ footer{
         align-items: center;
     }
     .cada-unidade img{
-        height: 80px;
+        height: 60px;
     }
     .space-news{
         display: flex;
         flex-wrap:wrap ;
         gap: 7px;
+    }
+    .nome-geral{
+        font-size: 40px;
+        margin: 0;
     }
     .cada-news{
         width: 82px;
