@@ -300,6 +300,27 @@ main p{
 .nome-unidade{
     font-size: 2.5em;
 }
+#space-button-footer{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 4px #000000b9;
+    position: fixed;
+    right: 3em;
+    bottom: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+}
+#space-button-footer:hover{
+    background-color: #FEC905;
+    transform: scale(1.05);
+}
+#space-button-footer img{
+    width: 60px;
+}
 footer{
     display: flex;
     justify-content: center;
