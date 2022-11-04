@@ -72,9 +72,8 @@ main{
    background-size: 700px;
    background-color: transparent;
 }
-main p{
-    text-indent: 20px;
-   
+.paragrafo-principal{
+    text-indent: 30px;
     text-align: justify;
 }
 .nome-geral{
@@ -198,7 +197,7 @@ main p{
     grid-column: 1/2;
     margin: 8px;
     font-family: 'Noto Serif', serif;
- 
+    text-align: center;
 }
 
 .paragraph-parte2{
@@ -207,6 +206,7 @@ main p{
     grid-column: 2/3;
     margin: 8px;
     font-family: 'Noto Serif', serif;
+    text-align: center;
 }
 
 #imagem-01{
