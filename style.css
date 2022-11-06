@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 @font-face {
     font-family: 'vollkorn';
     src: url(Vollkorn-Regular.ttf); 
@@ -124,10 +125,14 @@ main{
     align-items: center;
 }
 .onix:hover{
-    background-color: #181818cb;
+    background-color: #000000cb;
 }
+
 .cada-unidade img{
     height: 120px;
+}
+.onix img{
+    height: 140px;
 }
 .diamante:hover{
     background-color: #FEC905;
